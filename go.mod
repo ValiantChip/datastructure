@@ -1,3 +1,3 @@
-module github.com/ValiantChip/go-datastructure
+module github.com/ValiantChip/datastructure
 
 go 1.18
