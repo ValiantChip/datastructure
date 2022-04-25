@@ -1,14 +1,14 @@
-package datastructure
+package arraylist_test
 
 import (
 	"testing"
 
-	"github.com/ValiantChip/datastructure"
+	"github.com/ValiantChip/datastructure/arraylist"
 )
 
 func TestArrayList(t *testing.T) {
 
-	list := datastructure.NewArrayList[int]()
+	list := arraylist.NewArrayList[int]()
 
 	for i := 0; i < 10; i++ {
 		list.Add(i)
